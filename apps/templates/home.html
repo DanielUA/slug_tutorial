@@ -1,0 +1,7 @@
+<h1>Image Uploading</h1>
+<ul>
+    {% for item in object_list %}
+    <h2>{{ item.title }}</h2>
+    <img src={{ item.cover.url }} alt="{{ item.title }}" width="400px" height="600px">
+    {% endfor %}
+</ul>
