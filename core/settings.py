@@ -40,7 +40,8 @@ DJANGO_APPS = [
 ]
 
 LOCAL_APPS = [
-    "apps.articles",
+    # "apps.articles",
+    "apps.food"
 ]
 
 THIRD_APPS = []
