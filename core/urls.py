@@ -23,7 +23,8 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("articles", include("apps.articles.urls")),
     path("food", include("apps.food.urls")),
-    path("post", include("apps.posts.urls")),
+    path("", include("apps.posts.urls")),
+    path("", include("apps.rss.urls")),
 ]
 
 if settings.DEBUG:  # new

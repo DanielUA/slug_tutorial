@@ -43,6 +43,8 @@ LOCAL_APPS = [
     "apps.articles",
     "apps.food",
     "apps.posts",
+    "apps.rss",
+
 ]
 
 THIRD_APPS = []
